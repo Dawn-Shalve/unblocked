@@ -9,6 +9,15 @@ p {
   color:rebeccapurple
 }
 
+
+
+
+
+
+form.solid {border-style: solid;}
+
+
+
 p.solid {border-style: solid;}
 
 html { 
@@ -71,6 +80,7 @@ p {
   <button class="tablinks" onclick="openCity(event, 'Paris')">Videos</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Music</button>
   <button class="tablinks" onclick="openCity(event, 'yo')">Chat</button>
+  <button class="tablinks" onclick="openCity(event, 'changelog')">Changelog</button>
 </div>
 
 <div id="London" class="tabcontent">
@@ -125,8 +135,16 @@ p {
 
 
 
+<div id="changelog" class="tabcontent">
+<p> Added Catagories, Games, Music, Videos, Chat. </p>
+<p> Added Content to Catagories</p>
+<p> should I add blogging/stories?</p>
+<p> fixed css now website doesent look like shit</p>
 
 
+
+
+</div>
 
 
 
@@ -229,7 +247,7 @@ p {
  </div>
 
  <div id="mc" class="tabcontent">
-  <form action="Offline_Download_Version.html">
+  <form action="Offline_Download_Version.html" class="solid">
     <input type="submit" value="Go MC" />
 </form>
  </div>
