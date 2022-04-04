@@ -3,14 +3,30 @@
 <head>
 <title>Home | Schoology</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
 p {
-    background-image: url('img.jpg');
-  }
+  color:rebeccapurple
+}
 
 
 
+
+
+
+form.solid {border-style: solid;}
+
+
+
+p.solid {border-style: solid;}
+
+html { 
+  background: url(img.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {font-family: Arial;}
 
 /* Style the tab */
@@ -57,13 +73,14 @@ p {
 </head>
 <body style="background-color:#252526">
 
-<p>Welcome to Yaszus Unblocked Site:</p>
+<p class="solid">Welcome to Yaszus Unblocked Site:</p>
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')">Games</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Videos</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Music</button>
   <button class="tablinks" onclick="openCity(event, 'yo')">Chat</button>
+  <button class="tablinks" onclick="openCity(event, 'changelog')">Changelog</button>
 </div>
 
 <div id="London" class="tabcontent">
@@ -110,13 +127,35 @@ p {
 <div class="tab"
 <button class="tablinks" onclick="openCity(event, '🗿')">Sound Board</button>
 </div>
+<div class="tab"
+<button class="tablinks" onclick="openCity(event, 'mc')">Minecraft (beta)</button>
+</div>
+<div class="tab"
+<button class="tablinks" onclick="openCity(event, 'fnfg')">Fnf games(beta)</button>
+</div>
+<div class="tab"
+<button class="tablinks" onclick="openCity(event, 'quest')">Browser Quest</button>
+</div>
+<div class="tab"
+<button class="tablinks" onclick="openCity(event, 'race')">Micro Racing</button>
+</div>
 </div>
 
 
 
 
+<div id="changelog" class="tabcontent">
+<p> Added Catagories, Games, Music, Videos, Chat. </p>
+<p> Added Content to Catagories</p>
+<p> should I add blogging/stories?</p>
+<p> fixed css now website doesent look like shit</p>
+<p> looking for staff members...</p>
+<p>losoa is now staff lol</p>
+<p> people wanting to be staff please talk to me... (Micah)</p>
 
 
+
+</div>
 
 
 
@@ -355,8 +394,30 @@ p {
  </div>
 
 
+ <div id="quest" class="tabcontent">
+  <embed src="https://kaetram.com" style="width:1000px; height: 750px;">
+   
+ </div>
+
+ <div id="race" class="tabcontent">
+  <embed src="https://micro-racing.herokuapp.com" style="width:1000px; height: 750px;">
+   
+ </div>
 
 
+ <div id="mc" class="tabcontent">
+  <form action="Offline_Download_Version.html" class="solid">
+    <input type="submit" value="Go MC" />
+</form>
+ </div>
+
+ <div id="fnfg" class="tabcontent">
+  <button class="tablinks" onclick="openCity(event, 'sonicexe')">Sonic-Exe</button>
+  <button class="tablinks" onclick="openCity(event, 'qt')">QT</button>
+  <button class="tablinks" onclick="openCity(event, 'soft')">fnf soft</button>
+  <button class="tablinks" onclick="openCity(event, 'imposter')">imposterv3</button>
+  <button class="tablinks" onclick="openCity(event, 'cammi')">camellia</button>
+ </div>
 
  <div id="Florida" class="tabcontent">
   <div class="tab">
@@ -697,11 +758,6 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
-<style>
-  p {
-    background-image: url('img.jpg');
-  }
-  </style>
 </body>
 </html>
  
